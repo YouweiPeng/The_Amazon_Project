@@ -37,6 +37,17 @@
 .header-link:hover {
   border: 1px solid white;
 }
+.clear-cart-button-div{
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clear-cart-button-div:hover{
+  border: 1px solid white;
+  border-radius: 2px;
+}
 
 .amazon-logo {
   width: 100px;
@@ -97,10 +108,11 @@
 }
 
 .amazon-header-right-section {
-  width: 180px;
+  width: 230px;
   flex-shrink: 0;
   display: flex;
   justify-content: end;
+  align-items: center;
 }
 
 .orders-link {
@@ -113,11 +125,10 @@
 }
 
 .orders-text {
-  display: block;
-  font-size: 15px;
+  display: inline-block;
+  font-size: 14px;
   font-weight: 700;
 }
-
 .cart-link {
   color: white;
   display: flex;
@@ -146,4 +157,9 @@
   
   width: 26px;
   text-align: center;
+}
+.orders-link-div{
+  height: 55px;
+  display: flex;
+  justify-content: center;
 }
